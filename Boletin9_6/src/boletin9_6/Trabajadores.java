@@ -22,8 +22,6 @@ public class Trabajadores {
             soldo = Float.parseFloat(JOptionPane.showInputDialog("Cantidad de soldo do empleado:"));
             if (soldo > 0) {
                 trabajadoresT++;
-            } else {
-                soldo = Float.parseFloat(JOptionPane.showInputDialog("Incorrecto, cantidad de soldo do empleado:"));
             }
             if (soldo >= 1000 && soldo <= 1750) {
                 trabajadoresA++;
